@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #333;
+}
+
+/* RESPONSIVE */
+/* -----Mobile--------- */
+/* 739px = 46.1875em (1em =16px default) */
+@media (max-width:46.1875em) {
+    h1.heading_1 {
+        display: block;
+    }
+}
+
+/* -----Tablet------- */
+/* 740px = 46.25em (1em =16px default) and  1023px =63.9375em*/
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    h1.heading_2 {
+        display: block;
+    }
+}
+
+/* --------PC--------- */
+/* 1024px =64em (1em =16px) */
+@media (min-width:64em) {
+    h1.heading_3 {
+        display: block;
+    }
+}
